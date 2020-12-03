@@ -19,7 +19,7 @@ $ cd hogehoge
 $ php artisan serve
 ```
 
-<!-- TODO: ここに画像を挿入 -->
+![](https://github.com/konu96/zenn/blob/master/images/image.png)
 
 ## エラー原因と解決方法
 
@@ -34,7 +34,7 @@ $ cp .env.example .env
 
 ただ、これだけだと次のようなエラーが発生します。
 
-<!-- TODO: ここに画像を挿入 -->
+![](https://github.com/konu96/zenn/blob/master/images/image2.png)
 
 表示されているように暗号化用のキーが無いと怒られているので、次のコマンドを実行します。
  
@@ -42,7 +42,7 @@ $ cp .env.example .env
 
 上記コマンドを実行すると `.env` ファイルの `APP_KEY` に値が設定され、Laravel プロジェクトが正しく動作するようになります。
 
-<!-- TODO: ここに画像を挿入 -->
+![](https://github.com/konu96/zenn/blob/master/images/image3.png)
 
 ## Appendix
 
